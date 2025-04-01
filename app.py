@@ -176,8 +176,8 @@ with st.sidebar:
     """
     )
     st.markdown(
-        '<a href="https://github.com/PierXuY/ChatGPT-Assistant" target="_blank" rel="ChatGPT-Assistant">'
-        '<img src="https://badgen.net/badge/icon/GitHub?icon=github&amp;label=ChatGPT Assistant" alt="GitHub">'
+        '<a href="https://github.com/PierXuY/111-Assistant" target="_blank" rel="ChatGPT-Assistant">'
+        '<img src="https://badgen.net/badge/icon/GitHub?icon=github&amp;label=口语" alt="口语">'
         "</a>",
         unsafe_allow_html=True,
     )
