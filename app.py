@@ -15,7 +15,7 @@ else:
     openai.api_base = "https://api.openai.com/v1"
 
 st.set_page_config(
-    page_title="ChatGPT Assistant",
+    page_title="口语智途",
     layout="wide",
     page_icon=ICON,
 )
@@ -47,7 +47,7 @@ with st.sidebar:
     icon_text = f"""
     <div class="icon-text-container">
         <img src='data:image/png;base64,{ICON_base64}' alt='icon'>
-        <span style='font-size: 24px;'>聊天窗口</span>
+        <span style='font-size: 24px;'>口语智途</span>
     </div>
     """
     st.markdown(
