@@ -15,7 +15,7 @@ else:
     openai.api_base = "https://api.openai.com/v1"
 
 st.set_page_config(
-    page_title="口语智途",
+    page_title="自说“智”话——基于人工智能的英语口语对话",
     layout="wide",
     page_icon=ICON,
 )
@@ -47,7 +47,7 @@ with st.sidebar:
     icon_text = f"""
     <div class="icon-text-container">
         <img src='data:image/png;base64,{ICON_base64}' alt='icon'>
-        <span style='font-size: 24px;'>口语智途</span>
+        <span style='font-size: 24px;'>自说“智”话——基于人工智能的英语口语对话</span>
     </div>
     """
     st.markdown(
